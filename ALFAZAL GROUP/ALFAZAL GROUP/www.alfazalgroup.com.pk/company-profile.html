@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>ALFAZAL GROUP | Company Profile</title>
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+	<meta name="robots" content="" />
+	<meta name="description" content="" />
+	<meta property="og:title" content="" />
+	<meta property="og:description" content="" />
+	<meta property="og:image" content="" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- FAVICONS ICON -->
+	<link rel="icon" type="image/x-icon" href="//www.alfazal.com.pk/img/favicon.png" />
+	<link rel="shortcut icon" type="image/x-icon" href="//www.alfazal.com.pk/img/favicon.png" />
+	<!-- MOBILE SPECIFIC -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" type="text/css" href="//www.alfazal.com.pk/css/plugins.min.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="//www.alfazal.com.pk/plugins/flaticon/flaticon.css" />
+	<link rel="stylesheet" type="text/css" href="//www.alfazal.com.pk/plugins/themify/themify-icons.css" />
+	<link rel="stylesheet" type="text/css" href="//www.alfazal.com.pk/css/style.min.css" />
+	<link rel="stylesheet" type="text/css" href="//www.alfazal.com.pk/css/skin/skin-2.min.css" />
+	<link rel="stylesheet" type="text/css" href="//www.alfazal.com.pk/css/templete.min.css" />
+	<!-- Google Font -->
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css');
+	</style>
+	<!-- REVOLUTION SLIDER CSS -->
+	<link rel="stylesheet" type="text/css"
+		href="//www.alfazal.com.pk/plugins/revolution/revolution/css/revolution.min.css" />
+	<style type="text/css">
+		body {
+			user-select: none
+		}
+
+		/* Loading Ellipsis Start */
+		.loading-overlay-ellipsis {
+			display: none;
+			background: #f1f1f1;
+			position: fixed;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 99999;
+			opacity: .8
+		}
+
+		.loading-overlay-ellipsis .lds-ellipsis {
+			position: absolute;
+			top: 50%;
+			left: 48%
+		}
+
+		.loading-overlay-ellipsis .lds-ellipsis div {
+			position: absolute;
+			width: 14px;
+			height: 14px;
+			border-radius: 50%;
+			background: #d2151e;
+			box-shadow: 0 0 4px #d2151e;
+			animation-timing-function: cubic-bezier(0, 1, 1, 0)
+		}
+
+		.loading-overlay-ellipsis .lds-ellipsis div:nth-child(1) {
+			left: 8px;
+			animation: lds-ellipsis1 .6s infinite
+		}
+
+		.loading-overlay-ellipsis .lds-ellipsis div:nth-child(2) {
+			left: 8px;
+			animation: lds-ellipsis2 .6s infinite
+		}
+
+		.loading-overlay-ellipsis .lds-ellipsis div:nth-child(3) {
+			left: 32px;
+			animation: lds-ellipsis2 .6s infinite
+		}
+
+		.loading-overlay-ellipsis .lds-ellipsis div:nth-child(4) {
+			left: 56px;
+			animation: lds-ellipsis3 .6s infinite
+		}
+
+		@keyframes lds-ellipsis1 {
+			0% {
+				transform: scale(0)
+			}
+
+			100% {
+				transform: scale(1)
+			}
+		}
+
+		@keyframes lds-ellipsis3 {
+			0% {
+				transform: scale(1)
+			}
+
+			100% {
+				transform: scale(0)
+			}
+		}
+
+		@keyframes lds-ellipsis2 {
+			0% {
+				transform: translate(0, 0)
+			}
+
+			100% {
+				transform: translate(24px, 0)
+			}
+		}
+
+		/* Loading Ellipsis End */
+		.error {
+			color: #dc3545;
+			font-size: 90%;
+			margin-bottom: 0
+		}
+
+		@media only screen and (max-width:320px) {
+			.sm-g-recaptcha {
+				transform: scale(.76);
+				-webkit-transform: scale(.76);
+				transform-origin: 0 0;
+				-webkit-transform-origin: 0 0
+			}
+		}
+
+		@media only screen and (min-width:1200px) {
+			.logo-header {
+				width: 400px
+			}
+
+			.logo-header img {
+				width: 60px;
+				margin-top: 6px;
+			}
+		}
+
+		.header-nav .nav>li.open .sub-menu li a {
+			color: #000
+		}
+
+		.table>tbody>tr>td {
+			text-align: end
+		}
+
+		/* Navbar hover, active, and open color fix: turn all states to blue */
+		.header-nav .nav li a:hover,
+		.header-nav .nav li:hover>a,
+		.header-nav .nav li.active>a,
+		.header-nav .nav li.open>a,
+		.header-nav .nav li.current-menu-item>a,
+		.header-nav .nav li a:hover i,
+		.header-nav .nav li:hover>a i,
+		.header-nav .nav li.active>a i,
+		.header-nav .nav li.open>a i,
+		.header-nav .nav li.current-menu-item>a i {
+			color: #0056b3 !important;
+		}
+
+		/* Submenu dropdown background color fix: change from red to blue */
+		.header-nav .nav li .sub-menu {
+			background-color: #0056b3 !important;
+		}
+
+		/* Banner Main Slider Image CSS Fix */
+		#slide-100-layer-2 {
+			width: 100% !important;
+			max-width: 100% !important;
+			left: 0 !important;
+			right: 0 !important;
+			bottom: 0 !important;
+			transform: none !important;
+			text-align: center !important;
+			display: flex !important;
+			justify-content: center !important;
+			align-items: flex-end !important;
+			margin: 0 auto !important;
+		}
+
+		#slide-100-layer-2 img {
+			width: 100% !important;
+			max-width: 100% !important;
+			height: auto !important;
+			object-fit: contain !important;
+			display: block !important;
+			margin: 0 auto !important;
+		}
+
+		#slide-100-layer-4 {
+			z-index: 15 !important;
+			width: 100% !important;
+			text-align: center !important;
+		}
+	</style>
+	<style type="text/css">
+		.content-bx1 p {
+			text-align: justify
+		}
+
+		.content-bx1 ol {
+			padding-left: 20px
+		}
+
+		.content-bx1 li {
+			text-indent: 20px
+		}
+	</style>
+</head>
+
+<body id="bg">
+	<div class="page-wraper">
+		<!-- <div id="loading-area"></div> -->
+		<header class="site-header mo-left header navstyle1">
+			<div class="sticky-header main-bar-wraper header-curve navbar-expand-lg">
+				<div class="main-bar clearfix bg-primary">
+					<div class="container clearfix">
+						<div class="logo-header mostion logo-dark">
+							<a href="/index">
+								<img style="float:left;margin-right:6px" src="//www.alfazal.com.pk/images/logo.png"
+									alt="Alfazal Logo" />
+								<p class="d-md-block d-lg-block d-xl-block" style="margin:14px 0;display:none">
+									<span
+										style="display:block;font-size:143%;font-weight:600;color:#555!important">Alfazal
+										Group</span>
+									<span
+										style="display:block;font-size:60%;margin-top:-12px;color:#555!important">Manufacturers
+										of Tovex&reg; Explosives & Blasting Accessories</span>
+								</p>
+								<p class="d-sm-block d-md-none d-lg-none d-xl-none" style="margin:20px 0">
+									<span style="font-size:138%;font-weight:800;color:#555!important">ALFAZAL
+										GROUP</span>
+								</p>
+							</a>
+						</div>
+						<!-- nav toggle button -->
+						<button class="navbar-toggler collapsed navicon justify-content-end" type="button"
+							data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+							aria-expanded="false"
+							aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+						<!--Quik search -->
+						<div class="extra-nav">
+							<div class="extra-cell">
+								<a href="/site_search">
+									<button id="quik-search-btn" type="button" class="site-button-link"><i
+											class="la la-search"></i></button>
+								</a>
+							</div>
+						</div>
+						<!--  <div class="dlab-quik-search">-->
+						<!--	<form>-->
+						<!--		<input name="search" type="text" class="form-control" placeholder="Type to search" />-->
+						<!--		<span id="quik-search-remove"><i class="ti-close"></i></span>-->
+						<!--	</form>-->
+						<!--</div> -->
+						<div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+							<div class="logo-header d-md-block d-lg-none">
+								<a href="/index" style="text-align:center">
+									<img style="width:40%" src="//www.alfazal.com.pk/images/logo.jpg"
+										alt="Alfazal Logo" />
+									<p style="margin:0 auto;line-height:16px">
+										<span
+											style="display:inline-block;font-size:138%;font-weight:600;margin-top:12px;color:#555!important">Alfazal
+											Group</span>
+										<span
+											style="display:inline-block;font-size:58%;margin-top:-12px;color:#555!important">Manufacturer
+											of Tovex & Blasting Accessories</span>
+									</p>
+								</a>
+							</div>
+							<ul class="nav navbar-nav">
+								<li><a href="/index">Home</a></li>
+								<li>
+									<a href="javascript:void(0);">Corporate<i class="fa fa-chevron-down"></i></a>
+									<ul style="font-size: 1px; font-weight: 10;" class="sub-menu">
+										<li><a href="/company-profile">Company Profile</a></li>
+										<li><a href="/vision-mission">Vision & Mission</a></li>
+										<li><a href="/management">Board of Directors</a></li>
+										<!-- <li>
+									<a href="javascript:void(0);">Our Management<i class="fa fa-angle-right"></i></a>
+									<ul class="sub-menu">
+										<li><a href="#">CEO</a></li>
+										<li><a href="#">COO</a></li>
+										<li><a href="#">COO</a></li>
+										<li><a href="#">GM Tech</a></li>
+									</ul>
+								</li> -->
+										<li><a href="/ethics">Code of Conduct</a></li>
+										<li><a href="/our-technology">Our Technology</a></li>
+										<li><a href="/company-information">Company Information</a></li>
+										<li><a href="/policies.php">Policies</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="javascript:void(0);">Investor<i class="fa fa-chevron-down"></i></a>
+									<ul style="font-size: 1px; font-weight: 10;" class="sub-menu">
+										<li><a href="/financial_hlights">Financial Highlights</a></li>
+										<li><a href="/financial_rep">Financial Reports</a></li>
+										<li><a href="/freefloat">Free Float of Shares</a></li>
+										<li><a href="/sharehold">Share Holding Pattern</a></li>
+										<li><a href="https://dps.psx.com.pk/company/BIFO" target="_blank">Share Price
+												Information</a></li>
+										<li><a href="/anouncement">Announcements & Notices</a></li>
+										<li><a href="/eforms">Forms</a></li>
+										<li><a href="/elections">Elections of Directors</a></li>
+										<li><a href="/compliance-certificate">Compliance Certificate</a></li>
+										<li><a href="/cpbrief">Corporate Briefing</a></li>
+										<li><a href="/contactforinvet">Contact for Investor</a></li>
+										<li><a href="/s_map">Site Map</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="">Products<i class="fa fa-chevron-down"></i></a>
+									<ul style="font-size: 1px; font-weight: 10;" class="sub-menu tab-content">
+										<li>
+											<a href="/products/WaterGelExplosives/1">Water Gel Explosives<i
+													class="fa fa-angle-right"></i></a>
+											<ul class="sub-menu">
+												<li><a href="/products/SuperBlaster/1/4">Super Blaster </a></li>
+												<li><a href="/products/Blaster/1/5">Blaster</a></li>
+												<li><a href="/products/SuperBreaker/1/6">Super Breaker</a></li>
+												<li><a href="/products/Breaker/1/7">Breaker</a></li>
+												<li><a href="/products/SeismicExplosive/1/8">Seismic Explosive</a></li>
+												<li><a href="/products/Prespliter/1/9">Pre spliter</a></li>
+												<li><a href="/products/CoalMiner/1/10">Coal Miner</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/products/PowderExplosives/2">Powder Explosives<i
+													class="fa fa-angle-right"></i></a>
+											<ul class="sub-menu">
+												<li><a href="/products/BioPrillANFO/2/11">Bio Prill (ANFO)</a></li>
+												<li><a href="/products/BiBulk/2/12">Bi Bulk</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/products/BlastingAccessories/3">Blasting Accessories<i
+													class="fa fa-angle-right"></i></a>
+											<ul class="sub-menu">
+												<li><a href="/products/PlainDetonator/3/13">Plain Detonator</a></li>
+												<li><a href="/products/ElectricDetonatorInstantaneous/3/14">Electric
+														Detonator - Instantaneous</a></li>
+												<li><a href="/products/SeismicElectricDetonator/3/19">Seismic Electric
+														Detonator</a></li>
+												<li><a href="/products/DelayElectricDetonator/3/20">Delay Electric
+														Detonator</a></li>
+												<li><a href="/products/NonElectricDelayDetonatorBinel/3/21">Non-Electric
+														Delay Detonator (Binel) </a></li>
+												<li><a href="/products/TwoWayDelayRelays/3/23">Two Way Delay Relays</a>
+												</li>
+												<li><a href="/products/BiafoCord/3/24">Biafo Cord</a></li>
+												<li><a href="/products/SafetyFuse/3/25">Safety Fuse</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="/services">Services</a></li>
+								<!--<li><a href="/contact">Contact Us</a></li> -->
+								<li>
+									<a href="/contact"">Contact Us<i class=" fa fa-chevron-down"></i></a>
+									<ul style="font-size: 1px; font-weight: 10;" class="sub-menu">
+										<li><a href="/tender.php">Tender</a></li>
+
+
+									</ul>
+								</li>
+
+								<!--<li class="fa fa-search dlab-quik-search ">-->
+								<!--<div class="extra-nav">-->
+								<!--<div class="extra-cell">-->
+								<!--	<button id="quik-search-btn" type="button" class="fa fa-search site-button-link"><i class="la la-search"></i></button>-->
+								<!--</div>-->
+								<!--</div>-->
+								<!--</li>-->
+							</ul>
+							<div class="dlab-social-icon">
+								<ul>
+									<li><a class="site-button facebook circle-sm outline fa fa-facebook"
+											href="javascript:void(0);"></a></li>
+									<li><a class="site-button twitter circle-sm outline fa fa-twitter"
+											href="javascript:void(0);"></a></li>
+									<li><a class="site-button linkedin circle-sm outline fa fa-linkedin"
+											href="javascript:void(0);"></a></li>
+									<li><a class="site-button instagram circle-sm outline fa fa-instagram"
+											href="javascript:void(0);"></a></li>
+									<li><a class="site-button google-plus circle-sm outline fa fa-google-plus"
+											href="javascript:void(0);"></a></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+					<!--	 <marquee onMouseOver="this.stop()" onMouseOut="this.start()" direction="left"  behavior="" style="color:black; background-color:white" >
+
+36th Annual General Meeting of Biafo Industries Limited will be held on October 24, 2024 at 11:00 a.m. at Dewan-e-Khass, Islamabad Hotel, G-6 Civic Centre, Melody Market, Islamabad. For further details <a href="anouncement" class="mr-5">click here </a>
+                        </marquee>-->
+				</div>
+
+			</div>
+
+		</header> <!-- Content -->
+		<div class="page-content bg-white">
+
+			<div class="rev-slider-full">
+				<div id="rev_slider_14_1_wrapper" class="rev_slider_wrapper fullscreen-container"
+					data-alias="gravitydesign1" data-source="gallery" style="background:#1d2931;padding:0px">
+					<div id="rev_slider_14_1" class="rev_slider fullscreenbanner" style="display:none"
+						data-version="5.4.1">
+						<ul>
+							<li data-index="rs-100" data-transition="fade" data-slotamount="default"
+								data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default"
+								data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off"
+								data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4=""
+								data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
+								data-param10="" data-description="">
+								<!-- MAIN IMAGE -->
+								<img src="images/main-slider/dummy.png" data-bgcolor="#1d2931"
+									style="background:#1d2931" alt="Main Slider" data-bgposition="center center"
+									data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off"
+									class="rev-slidebg" data-no-retina />
+								<!-- LAYERS -->
+								<!-- LAYER NR. 1 -->
+								<div class="tp-caption tp-shape tp-shapewrapper tp-overlay-pera banner-curv"
+									id="slide-100-layer-1" data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
+									data-voffset="['0','0','0','0']" data-width="full" data-height="full"
+									data-whitespace="nowrap" data-type="shape" data-basealign="slide"
+									data-responsive_offset="on" data-responsive="off"
+									data-frames='[{"delay":0,"speed":1500,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","ease":"nothing"}]'
+									data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+									data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+									data-paddingleft="[0,0,0,0]" style="z-index:2">
+
+
+
+								</div>
+
+								<!-- LAYER NR. 2 (TRUCK IMAGE) -->
+								<div class="tp-caption   tp-resizeme" id="slide-100-layer-2"
+									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									data-y="['bottom','bottom','bottom','bottom']" data-voffset="['0','0','0','0']"
+									data-width="['100%','100%','100%','100%']"
+									data-height="['auto','auto','auto','auto']" data-whitespace="nowrap"
+									data-type="image" data-basealign="slide" data-responsive_offset="on"
+									data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+									data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+									data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+									data-paddingleft="[0,0,0,0]" style="z-index:8"><img
+										src="images/main-slider/slide27.png" alt="Alfazal Container Truck"
+										data-ww="['100%','100%','100%','100%']" data-hh="['auto','auto','auto','auto']"
+										width="1920" height="1024" data-no-retina>
+								</div>
+
+								<!-- LAYER NR. 4 (ALFAZAL TEXT ON TOP WITH BLEND) -->
+								<div class="tp-caption tp-resizeme" id="slide-100-layer-4"
+									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+									data-y="['bottom','bottom','bottom','bottom']"
+									data-voffset="['-30','-20','-15','-10']" data-fontsize="['280','180','130','70']"
+									data-lineheight="['300','200','150','80']" data-width="none" data-height="none"
+									data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
+									data-frames='[{"delay":200,"speed":2000,"frame":"0","from":"sX:2;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+									data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]"
+									data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+									data-paddingleft="[0,0,0,0]"
+									style="z-index:15;white-space:nowrap;font-size:280px;line-height:300px;font-weight:900;color:rgba(255,255,255,0.18);font-family:'Roboto Condensed',sans-serif;letter-spacing:15px;transition:color 0.8s ease">
+									<div class="rs-looped rs-wave" data-speed="3" data-angle="0" data-radius="2px"
+										data-origin="50% 50%">ALFAZAL</div>
+								</div>
+								<!-- LAYER NR. 5 -->
+								<!-- <div class="tp-caption tp-resizeme rs-parallaxlevel-1" 
+						id="slide-100-layer-5" 
+						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+						data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-50','-100','-100','-100']" 
+						data-width="none"
+						data-height="none"
+						data-whitespace="nowrap"
+						data-type="image" 
+						data-responsive_offset="on" 
+						data-frames='[{"delay":850,"speed":2000,"frame":"0","from":"sX:1.1;sY:1.1;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['inherit','inherit','inherit','inherit']"
+						data-paddingtop="[0,0,0,0]"
+						data-paddingright="[0,0,0,0]"
+						data-paddingbottom="[0,0,0,0]"
+						data-paddingleft="[0,0,0,0]"
+						style="z-index:10">
+						<div class="rs-looped rs-wave"  data-speed="5" data-angle="0" data-radius="3px" data-origin="50% 50%">
+							<img src="images/main-slider/box-bg1.png" alt="" data-ww="['682px','682px','682px','430px']" data-hh="['842px','842px','842px','531px']" width="407" height="200" data-no-retina> 
+						</div>
+					</div> -->
+								<!-- LAYER NR. 6 -->
+								<!-- <div class="tp-caption tp-resizeme rs-parallaxlevel-2" 
+						id="slide-100-layer-6" 
+						data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
+						data-y="['bottom','bottom','bottom','bottom']" data-voffset="['-80','-80','-80','-80']" 
+						data-width="none"
+						data-height="none"
+						data-whitespace="nowrap"
+						data-type="image" 
+						data-responsive_offset="on" 
+						data-frames='[{"delay":250,"speed":5000,"frame":"0","from":"y:100px;rZ:15deg;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+						data-textAlign="['inherit','inherit','inherit','inherit']"
+						data-paddingtop="[0,0,0,0]"
+						data-paddingright="[0,0,0,0]"
+						data-paddingbottom="[0,0,0,0]"
+						data-paddingleft="[0,0,0,0]"
+						style="z-index:9">
+						<div class="rs-looped rs-wave"  data-speed="10" data-angle="0" data-radius="5px" data-origin="50% 50%">
+							<img src="images/main-slider/box-bg2.png" alt="" data-ww="['529px','529px','529px','300px']" data-hh="['742px','742px','742px','420px']" width="1025" height="500" data-no-retina> 
+						</div>
+					</div> -->
+								<!-- LAYER NR. 9 -->
+								<div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-100-layer-9"
+									data-x="['center','center','center','center']" data-hoffset="['-4','-4','-4','-4']"
+									data-y="['bottom','bottom','bottom','bottom']"
+									data-voffset="['221','201','301','300']" data-width="['390','390','390','180']"
+									data-height="2" data-whitespace="nowrap" data-type="shape"
+									data-responsive_offset="on"
+									data-frames='[{"delay":"bytrigger","speed":500,"frame":"0","from":"sX:0;opacity:1;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"bytrigger","speed":300,"frame":"999","to":"sX:0;opacity:1;","ease":"Power3.easeInOut"}]'
+									data-textAlign="['inherit','inherit','inherit','inherit']"
+									data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+									data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
+									data-lasttriggerstate="reset"
+									style="z-index:13;background-color:rgba(255,255,255,1)">
+
+									<marquee direction="left" behavior="" style="border:white 2px SOLID">
+										Elections of Directors: Election of Directors will be hels in AGM on 25 October
+										2022 For further details click <a href="https://www.alfazal.com.pk/elections"
+											target="_Elections">here</a>
+									</marquee>
+
+								</div>
+							</li>
+						</ul>
+						<div class="tp-bannertimer tp-bottom" style="visibility:hidden !important"></div>
+					</div>
+				</div>
+			</div>
+			<div class="dlab-bnr-inr overlay-black-middle text-center bg-pt"
+				style="background-image:url(img/banner/management.jpg)">
+				<div class="container">
+					<div class="dlab-bnr-inr-entry align-m text-center">
+						<h2 style="margin-left: 35px;" class="text-white">Company Profile</h2>
+						<div class="breadcrumb-row">
+							<ul class="list-inline">
+								<li><a href="javascript:void(0);">Corporate</a></li>
+								<li>Company Profile</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- contact area -->
+			<div class="content-block">
+				<!-- Company Profile Section -->
+				<div class="section-full content-inner bg-white section-content">
+					<div class="container">
+						<div class="section-content">
+							<div class="row d-flex">
+								<div class="col-sm-12 col-md-12 align-self-center">
+									<div class="content-bx1">
+
+										<!-- <div id="UModal" class="modal fade" role="document">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-body">
+				<embed src="/docs/company-profile.pdf" frameborder="0" width="100%" height="600px">
+			</div>
+		</div>
+	</div>
+</div> -->
+										<style type="text/css">
+											.lang-bar {
+												float: right;
+												padding-top: 10px
+											}
+
+											.lang-bar>button {
+												padding: 2px 10px
+											}
+
+											.modal {
+												z-index: 100000
+											}
+
+											.modal .modal-body {
+												padding: 25px 30px
+											}
+										</style>
+										<div id="english">
+											<div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+												<p>Biafo Industries Limited having its registered office at 1st Floor,
+													Biafo House, Plot No. 23, Street No. 38-40, I&T Center, G-10/4,
+													Islamabad-Pakistan would like to take this opportunity to introduce
+													their product Tovex ® Water Gel Explosive manufactured at their
+													plant located at Hattar Industrial Estate, Haripur Pakistan.</p>
+												<br>
+												<p>The Company has been selected amongst Top 25 Companies of Pakistan
+													Stock Exchange for the years 2012, 2013, 2014, 2015 and 2018. We are
+													also an ISO 9001-2015, ISO 45001 :2018 certified company.</p>
+												<br>
+												<p>Tovex ® has been an important breakthrough in explosives since the
+													invention of dynamite by Alfred Nobel more than a century ago.
+													Dynamite has served the industry well but hazards associated with
+													the use, manufacture, transportation, storage and toxic nature has
+													been the cause of serious concern.</p>
+												<br>
+												<p>After intensive studies and research, in 1974 DuPont, the largest
+													manufacturer of Nitro Glycerin based dynamite in the United States
+													of America introduced Tovex ® Water Gel, and in 1976 they decided to
+													withdraw from the dynamite business in favour of Tovex ®.</p>
+												<br>
+												<p>Tovex ® Water Gel is substantially and demonstratively safer and is
+													designed to perform equal to, if not better than dynamite in all
+													sectors of the industry i.e. construction, mining, quarrying,
+													seismic, tunneling etc. Tovex ® compositions manufactured by Biafo
+													are cap sensitive and other features are as follows:</p>
+											</div>
+											<div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+												<br>
+												<ul style="margin-left: 15px">
+													<li> Wide range of bore hole densities.</li>
+													<li> Improved flexibility in loading.</li>
+													<li> Water-resistant.</li>
+													<li> No Nitro Glycerin and noxious fumes.</li>
+													<li> Reduced handling, transportation and storage hazards.</li>
+													<li> High bubble energy (Under water explosion).</li>
+													<li> Reduced sound levels and better control on vibrations.</li>
+												</ul>
+												<br>
+												<p>The DuPont technology and goodwill was purchased by <b>Explosive
+														Technology International (ETI)</b> in 1988 and in 2007 by
+													<b>Dyno Nobel of USA</b> and Biafo is the licensee in Pakistan using
+													the DuPont Technology and formulations. Due to the quality of its
+													products Biafo has captured a substantial share of the market in the
+													following areas:
+												</p>
+												<br>
+												<ul style="margin-left: 15px">
+													<li>Major Supplier to the Saindak Copper & Gold Project and Dudder
+														Lead & Zinc Mining Projects in Baluchistan.</li>
+													<li>Major cement plants are using Tovex ® for their limestone
+														quarries.</li>
+													<li>Majority of oil companies working in Pakistan used Tovex ® for
+														Seismic exploration, all over Pakistan.</li>
+													<li>Blasting for road construction by local as well as international
+														companies.</li>
+													<li>Mining for minerals and quarries for the construction and
+														building industry.</li>
+												</ul>
+											</div>
+											<br>
+											<div class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+												<p>Biafo has the modern and state of the art manufacturing unit which is
+													highly automated and can produce Tovex ® Explosives and Powder
+													Explosives (ANFO).</p>
+												<br>
+												<p>Biafo also produces the following Blasting Accessories for explosives
+													from technology initially obtained from Hanwha Group of South Korea
+													and with continuous in-house research and development has developed
+													other products as per demand of local market. Our main Blasting
+													Accessories includes the following products:</p>
+												<br>
+												<ol style="margin-left: 15px">
+													<li>Plain Detonators</li>
+													<li>Electric Detonator Instantaneous</li>
+													<li>Seismic Electric Detonators</li>
+													<li>Delay Electric Detonator</li>
+													<li>Non-Electric Delay Detonator - Binel</li>
+													<li>Two Way Delay Relays </li>
+													<li>Biafo Cord</li>
+													<li>Safety Fuse</li>
+												</ol>
+												<p>Biafo has also developed a strong technical support team to assist
+													customers for safe use of explosives and to provide blasting
+													services.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Company Profile Section End -->
+			</div>
+			<!-- contact area END -->
+		</div>
+		<!-- Content END -->
+		<footer class="site-footer">
+			<!-- Contact Widget Start -->
+			<!-- 	<div class="section-full p-t50 p-b20 bg-primary text-white overlay-primary-dark footer-info-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 m-b30">
+					<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+						<div class="icon-content">
+							<h3 class="dlab-tilte"><span class="icon-sm"><i class="ti-location-pin"></i></span>Head Office</h3>
+							<p class="m-b0 op7">1st Floor, Biafo House, I&T Centre,</p>					
+							<p class="op7">G-10/4, Islamabad - Pakistan</p>
+							<br>
+							<br>
+							<br>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 m-b30">
+					<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+						<div class="icon-content">
+							<h3 class="dlab-tilte"><span class="icon-sm"><i class="ti-email"></i></span>E-mail</h3>
+							<p class="m-b0 op7">management@alfazal.com.pk</p>						
+							<p class="op7">plant@alfazal.com.pk</p>
+							<br>
+							<br>
+							<br>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 m-b30">
+					<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+						<div class="icon-content">
+							<h3 class="dlab-tilte"><span class="icon-sm"><i class="ti-mobile"></i></span>Phone Numbers</h3>
+							<p class="m-b0 op7">+92 51 2353450-53</p>
+							<p class="op7">+92 51 2353455-57</p>
+							<br>
+							<br>
+							<br>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 m-b30">
+					<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
+						<div class="icon-content" style="margin-bottom: 12px">
+							<h3 class="dlab-tilte giv-margin"><span class="icon-sm"><i class="ti-alarm-clock"></i></span>Timings</h3>
+							<p class="op7"><b>Head Office</b></p>
+							<p class="op7">09:00am–5:30pm (Mon to Fri)</p>
+							<p class="op7"><b>Plant</b></p>
+							<p class="op7">08:00am–4:00pm (Mon to Sat)</p>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+			<!-- Contact Widget End -->
+			<div class="p-t60 text-center bg-black-1"
+				style="background-image:url(//www.alfazal.com.pk/images/background/bg2.png);background-size:contain">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h5 class="font-weight-300">LET'S CONNECT</h5>
+							<div class="dlab-separator bg-white"></div>
+							<p class="max-w600 m-auto text-center">
+							<h4 style="color: #D2151E">Alfazal Group</b></h4>
+							<h5>CB-87-88, Street No. 8, Allama Iqbal Road, Lalazar Colony, Wah Cantt, Pakistan</h5>
+							<p class="m-b0 op7"><b style="color: #D2151E">Phone:</b> +92 51 4539641, +92 51 4510211 <b
+									style="color: #D2151E">Fax:</b> +92 51 2353458</p>
+							<p><b style="color: #D2151E">Email: </b> alfazalassociates@yahoo.com</p>
+
+							<ul class="list-inline m-t20">
+								<li><a class="site-button facebook circle outline fa fa-facebook"
+										href="https://www.facebook.com/alfazalgroup" target="blank"></a></li>
+								<li><a class="site-button twitter circle outline fa fa-twitter"
+										href="https://twitter.com/alfazalgroup" target="blank"></a></li>
+								<li><a class="site-button linkedin circle outline fa fa-linkedin"
+										href="https://www.linkedin.com/company/alfazalgroup" target="blank"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4 col-sm-6 text-left"><span>Copyright © 2026 ALFAZAL GROUP</span></div>
+							<div class="col-md-4 col-sm-6 text-center"><span>Website last updated: 21 July, 2026</span>
+							</div>
+							<div class="col-md-4 col-sm-6 text-right"><span>All Rights Reserved</span></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<button class="scroltop style1 radius" type="button"><i class="fa fa-arrow-up"></i></button>
+		<!-- <button class="scroltop style2 radius" type="button"><i class="fa fa-arrow-up"></i></button> -->
+
+		<style type="text/css">
+			p {
+				margin-bottom: 0px !important;
+			}
+
+			h3 {
+				margin-bottom: 0px !important;
+			}
+		</style>
+	</div>
+	<script type="text/javascript" src="//www.alfazalgroup.com.pk/js/combining.js"></script>
+	<script type="text/javascript" src="//www.alfazal.com.pk/js/jquery.lazy.min.js"></script>
+	<script type="text/javascript"
+		src="//www.alfazal.com.pk/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript"
+		src="//www.alfazal.com.pk/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="//www.alfazal.com.pk/js/jquery.validate.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function () {
+			'use strict';
+			$('.lazy').Lazy();
+			// Form Validation
+			$(".jquery-form-validation").validate({
+				errorElement: "span",
+				errorPlacement: function (error, element) {
+					element.closest('.input-group').after(error);
+				}
+			});
+
+			// Custom background slideshow for different trucks
+			var images = [
+				"images/main-slider/slide27.png",
+				"images/main-slider/slide28.jpg",
+				"images/main-slider/slide29.jpg"
+			];
+			var index = 0;
+			
+			setInterval(function() {
+				var imgElement = jQuery("#slide-100-layer-2 img");
+				var textElement = jQuery("#slide-100-layer-4");
+				if (imgElement.length) {
+					index = (index + 1) % images.length;
+					// index 0: dark bg slide27 -> white text; index 1 & 2: light bg slide28/29 -> dark charcoal text
+					var textColor = (index === 0) ? "rgba(255,255,255,0.18)" : "rgba(30,35,50,0.5)";
+					
+					imgElement.animate({ opacity: 0 }, 600, function() {
+						jQuery(this).attr("src", images[index]);
+						textElement.css("color", textColor);
+						jQuery(this).animate({ opacity: 1 }, 600);
+					});
+				}
+			}, 5000);
+		});
+	</script>
+	<script type="text/javascript"
+		src="//www.alfazal.com.pk/plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+	<script type="text/javascript"
+		src="//www.alfazal.com.pk/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+	<script type="text/javascript"
+		src="//www.alfazal.com.pk/plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+</body>
+
+</html>

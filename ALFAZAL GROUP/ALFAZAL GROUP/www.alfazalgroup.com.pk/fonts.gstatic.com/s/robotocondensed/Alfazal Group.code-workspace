@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../www.alfazalgroup.com.pk"
+		},
+		{
+			"path": "../../../React Developer Tools"
+		},
+		{
+			"path": "../../../Sider"
+		},
+		{
+			"path": "../../../fonts.googleapis.com"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "www.alfazalgroup.com.pk"
+	}
+}
